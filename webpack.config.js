@@ -1,6 +1,6 @@
-var path = require("path");
-var webpack = require("webpack");
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const path = require("path");
+const webpack = require("webpack");
 
 // if using any plugins for both dev and production
 var plugins = [
