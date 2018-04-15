@@ -1,0 +1,26 @@
+{
+  "name": "canvas-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^1.19.1",
+    "jquery": "^3.2.1",
+    "normalize-css": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "webpack": "^2.5.1"
+  }
+}

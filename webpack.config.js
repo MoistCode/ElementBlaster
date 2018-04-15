@@ -1,7 +1,15 @@
 var path = require("path");
 var webpack = require("webpack");
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
-var plugins = []; // if using any plugins for both dev and production
+// if using any plugins for both dev and production
+var plugins = [
+  new BrowserSyncPlugin({
+    host: 'localhost',
+    port: 3000,
+    server: { baseDir: ['public'] }
+  })];
+
 var devPlugins = []; // if using any plugins for development
 
 var prodPlugins = [
@@ -33,10 +41,10 @@ module.exports = {
     loaders: [
       {
         test: [/\.jsx?$/, /\.js?$/],
-        exclude: /node_modules/,
+        exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
         query: {
-          presets: ['env', 'react']
+          presets: ['env']
         }
       }
     ]
