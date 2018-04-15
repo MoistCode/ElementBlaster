@@ -3,16 +3,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const gameContext = gameCanvas.getContext('2d');
 
   setInterval(() => {
-    drawCanvas(gameContext, ...getRandomNumbers());
+    drawCanvas(gameContext,gameCanvas, ...getRandomNumbers());
+    gameContext.clearRect()
   }, 1)
 })
 
 function drawCanvas(context, x, y, width, height) {
-  context.beginPath();
-  context.rect(x, y, width, height);
+  context.fillRect(x, y, width, height);
   context.fillStyle = `#${getRandomColor()}`;
-  context.fill();
-  context.closePath();
 }
 
 function getRandomNumbers() {
