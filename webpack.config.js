@@ -7,7 +7,8 @@ var plugins = [
   new BrowserSyncPlugin({
     host: 'localhost',
     port: 3000,
-    server: { baseDir: ['public'] }
+    files: ['./index.html'],
+    server: { baseDir: ['./'] }
   })];
 
 var devPlugins = []; // if using any plugins for development
