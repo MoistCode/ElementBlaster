@@ -1,5 +1,39 @@
-const gameCanvas = document.getElementById('game');
-const gameContext = gameCanvas.getContext('2d');
+document.addEventListener("DOMContentLoaded", () => {
+  const gameCanvas = document.getElementById('gameCanvas');
+  const gameContext = gameCanvas.getContext('2d');
 
-gameContext.fillStyle = '#000';
-gameContext.fillRect(0, 0, gameCanvas.width, gameCanvas.height);
+  setInterval(() => {
+    drawCanvas(gameContext, ...getRandomNumbers());
+  }, 1)
+})
+
+function drawCanvas(context, x, y, width, height) {
+  context.beginPath();
+  context.rect(x, y, width, height);
+  context.fillStyle = `#${getRandomColor()}`;
+  context.fill();
+  context.closePath();
+}
+
+function getRandomNumbers() {
+  return [
+    Math.floor(Math.random() * 600),
+    Math.floor(Math.random() * 600),
+    Math.floor(Math.random() * 200),
+    Math.floor(Math.random() * 200)
+  ]
+}
+
+function getRandomColor() {
+  const randomChar = [
+    '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+    'A', 'B', 'C', 'D', 'E', 'F'
+  ]
+  let colorHex = '';
+  console.log(colorHex);
+
+  while (colorHex.length < 6) {
+    colorHex = colorHex.concat(randomChar[Math.floor(Math.random() * 15)]);
+  }
+  return colorHex;
+}
