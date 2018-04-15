@@ -1,25 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
   const gameCanvas = document.getElementById('gameCanvas');
   const gameContext = gameCanvas.getContext('2d');
-
+  let count = 0
   setInterval(() => {
-    drawCanvas(gameContext,gameCanvas, ...getRandomNumbers());
-    gameContext.clearRect()
+    drawCanvas(gameContext, count);
+    count += 1;
+    if (count > 200) {
+      count = 0;
+    }
   }, 1)
 })
 
-function drawCanvas(context, x, y, width, height) {
-  context.fillRect(x, y, width, height);
+function drawCanvas(context, count) {
+  context.beginPath();
+  context.arc(Math.floor(Math.random() * 600), Math.floor(Math.random() * 600), count, 0, Math.PI * 2, false);
   context.fillStyle = `#${getRandomColor()}`;
-}
-
-function getRandomNumbers() {
-  return [
-    Math.floor(Math.random() * 600),
-    Math.floor(Math.random() * 600),
-    Math.floor(Math.random() * 200),
-    Math.floor(Math.random() * 200)
-  ]
+  context.fill();
+  context.closePath();
+  console.log(count);
 }
 
 function getRandomColor() {
