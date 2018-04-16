@@ -1,5 +1,5 @@
 # Ball Blaster
-Where Balls Blast other Balls
+Where Balls Blast other Balls  
 [Ball Blaster](https://moistcode.github.io/BallBlaster/)
 
 ## Ball Blaster
