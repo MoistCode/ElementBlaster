@@ -84,16 +84,16 @@ Settings will allow the user to set the generation numbers of AIs and volume.
 
 **Over the weekend:**
 Setup all necessary Node modules, including getting webpack up and running. Create webpack.config.js as well as package.json. Write a basic entry file and the bare bones of all 6 scripts outlined above.
-- [ ] Create a `webpack.config.js` file
-- [ ] Generate `bundle.js` and ensure it's working with the entry file
-- [ ] Collision detection tutorials
-- [ ] Projectiles tutorials
-- [ ] Create basic visual frames
-- [ ] Barebones of the 6 scripts above
+- [x] Create a `webpack.config.js` file
+- [x] Generate `bundle.js` and ensure it's working with the entry file
+- [x] Collision detection tutorials
+- [x] Projectiles tutorials
+- [x] Create basic visual frames
+- [x] Barebones of the 6 scripts above
 
 **Day 1:**
 This day is dedicated to writing the responsiveness and characteristics of the human player. How it should act when a key is pressed. The environment will also be worked on to randomly generate barricades in the game. Collision logic will be started.
-- [ ] Complete ball response to keys
+- [x] Complete ball response to keys
 - [ ] Create a random-generator for barricades
 - [ ] Start on collision logic
 
