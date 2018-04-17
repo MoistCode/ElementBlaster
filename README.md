@@ -94,18 +94,18 @@ Setup all necessary Node modules, including getting webpack up and running. Crea
 **Day 1:**
 This day is dedicated to writing the responsiveness and characteristics of the human player. How it should act when a key is pressed. The environment will also be worked on to randomly generate barricades in the game. Collision logic will be started.
 - [x] Complete ball response to keys
-- [ ] Create a random-generator for barricades
+- [x] Style projectiles into bullets
 - [ ] Start on collision logic
 
 **Day 2:**
 This day is dedicated to collision and projectiles. To have players and projectiles collide and response appropriately with barricades will translate to working collision and projectile logic for computer players.
 - [ ] Complete collision logic
-- [ ] Complete projectiles logic
+- [x] Complete projectiles logic
 
 **Day 3:**
 This day is dedicated to testing collision and projectiles with computer players and writing the behavior of computer players.
 - [ ] Complete logic in response to being hit by a projectile
-- [ ] Complete `dodgePercent`, `counterPercent`, and `movement` of computer players
+- [x] Complete computer element project tiles, self elements, and movements
 - [ ] Complete all automated behavior of computer players
 
 **Day 4:**
