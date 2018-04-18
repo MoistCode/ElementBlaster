@@ -1,4 +1,8 @@
+body {
+  height: hidden;
+  overflow: hidden;
+}
 .game-video {
   display: inline;
-  transform: translate(15%, -125%);
+  transform: translate(15%, -141%);
 }
