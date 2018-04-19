@@ -1,8 +1,19 @@
 body {
   height: hidden;
   overflow: hidden;
+  background-color: black;
 }
 .game-video {
   display: inline;
-  transform: translate(15%, -141%);
+  transform: translate(17%, -158%);
+  width: 17%;
+
+}
+
+#restart-button {
+  transform: translate(-95%, -260%);
+  border: 10px solid white;
+  border-radius: 8px;
+  color: white;
+  font-size: 250%;
 }
