@@ -18,36 +18,26 @@ Blast through AIs and random boss fights as you are playing rounds upon rounds o
 **Game**
 * Fits on a standard screen without scrolling
 * Shows current classical element
-* Shows current power-up and timer
 
 **HumanPlayers**
 * Can shoot elements of four types
 * Can change type of element blasted
-* Increases health when successfully blasting a ball
 
 **ComputerPlayers**
 * Can shoot elements on four types
-* Automated dodge percentage
-* Automated counterattack percentage
-
-**Power-Ups**
-* Player gets increase blast strength if Power+ is picked up for 10 seconds
-* Player gets increase health percentage if Health%+ if picked up for 10 seconds
-* Player becomes invincible for 5 seconds if Invincibility is picked up
-* Player gets increase blast radius if Radius+ is picked up for 10 seconds
+* Automated movements
+* Automated blasts
 
 **Controls**
-* Blasting responds to left mouse click
-* Changing elements responds to tab
+* Blasting responds to left arrow, right arrow, up arrow, and down arrow
+* Changing elements responds to 'q' and 'e'
 
 **Settings**
-* Start button is shown
-  * Game does not automatically start
-  * Game starts upon clicking 'Start'
+* Restart button is shown
 * Clear rules of the game are shown
   * Shows the elements, their strengths, and their weaknesses
-* Allows users to mute music
-* Allows users to increase number to Computer Players
+* Allows users to pause music
+* Allows users to increase number to Computer Players (i.e., easy, medium, hard, extreme)
 
 ## Architecture & Technologies
 
@@ -62,8 +52,7 @@ In addition to the webpack entry file, `game.js`, there will be six other script
 * `player.js`: provides overall characteristic common across all players such as types of `classicalElements`
 * `humanplayer.js`: determines the appropriate actions and logical steps taken in response to the users and other players
 * `computerplayer.js`: houses scripts to automate `dodgePercent`, `counterPercentage`, and `movement`
-* `environmentjs`: houses scripts to automatically generate the environment such as barricades
-* `powerups.js`: determines the characteristics imported by the player when picking up a `powerup`
+* `elements.js': creation of elements or bullets
 * `util.js`: supports the overall game and houses code used across two or more classes
 
 ## Wireframe
@@ -99,17 +88,17 @@ This day is dedicated to writing the responsiveness and characteristics of the h
 
 **Day 2:**
 This day is dedicated to collision and projectiles. To have players and projectiles collide and response appropriately with barricades will translate to working collision and projectile logic for computer players.
-- [ ] Complete collision logic
+- [x] Complete collision logic
 - [x] Complete projectiles logic
 
 **Day 3:**
 This day is dedicated to testing collision and projectiles with computer players and writing the behavior of computer players.
-- [ ] Complete logic in response to being hit by a projectile
+- [x] Complete logic in response to being hit by a projectile
 - [x] Complete computer element project tiles, self elements, and movements
-- [ ] Complete all automated behavior of computer players
+- [x] Complete all automated behavior of computer players
 
 **Day 4:**
-This day is dedicated to testing and providing a boss player
-- [ ] Generate characteristics of a boss player (i.e., spawn rate, blasts, speed, size, etc.)
-- [ ] Ensure appropriate spawn rates for boss players
+This day is dedicated to testing and providing difficulties
+- [x] Add restart and difficult buttons
+- [x] Ensure appropriate amount of computer players per difficulty
 - [ ] Add an endless option if user does not wish for the game to end
