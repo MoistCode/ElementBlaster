@@ -17,3 +17,54 @@ body {
   color: white;
   font-size: 250%;
 }
+
+
+#easy-button {
+  transform: translate(-338%, -752%);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 100%;
+}
+#medium-button {
+  transform: translate(-203%, -748%);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 100%;
+}
+#hard-button {
+  transform: translate(-325%, -750%);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 100%;
+}
+#extreme-button {
+  transform: translate(-199%, -750%);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 100%;
+}
+
+#restart-button:hover {
+  border: 10px solid red;
+  color: red;
+}
+#easy-button:hover {
+  color: red;
+  border: 2px solid red;
+}
+#medium-button:hover {
+  color: red;
+  border: 2px solid red;
+}
+#hard-button:hover {
+  color: red;
+  border: 2px solid red;
+}
+#extreme-button:hover {
+  color: red;
+  border: 2px solid red;
+}
