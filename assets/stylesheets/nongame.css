@@ -1,3 +1,8 @@
+@font-face {
+  font-family: arcade;
+  src: url(arcade.TTF) format("truetype");
+}
+
 body {
   height: hidden;
   overflow: hidden;
@@ -7,41 +12,46 @@ body {
   display: inline;
   transform: translate(17%, -158%);
   width: 17%;
-
 }
 
 #restart-button {
-  transform: translate(-95%, -260%);
+  font-family: arcade;
+  transform: translate(-104%, -286%);
   border: 10px solid white;
   border-radius: 8px;
   color: white;
   font-size: 250%;
+  padding-left: 7px;
 }
 
 
 #easy-button {
-  transform: translate(-338%, -752%);
+  font-family: arcade;
+  transform: translate(-254%, -814%);
   border: 2px solid white;
   border-radius: 5px;
   color: white;
   font-size: 100%;
 }
 #medium-button {
-  transform: translate(-203%, -748%);
+  font-family: arcade;
+  transform: translate(-175%, -814%);
   border: 2px solid white;
   border-radius: 5px;
   color: white;
   font-size: 100%;
 }
 #hard-button {
-  transform: translate(-325%, -750%);
+  font-family: arcade;
+  transform: translate(-253%, -814%);
   border: 2px solid white;
   border-radius: 5px;
   color: white;
   font-size: 100%;
 }
 #extreme-button {
-  transform: translate(-199%, -750%);
+  font-family: arcade;
+  transform: translate(-149%, -814%);
   border: 2px solid white;
   border-radius: 5px;
   color: white;
@@ -49,7 +59,8 @@ body {
 }
 
 #endless-button {
-  transform: translate(-214%, -750%);
+  font-family: arcade;
+  transform: translate(-148%, -814%);
   border: 2px solid white;
   border-radius: 5px;
   color: white;
