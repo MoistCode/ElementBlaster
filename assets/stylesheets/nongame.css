@@ -48,6 +48,14 @@ body {
   font-size: 100%;
 }
 
+#endless-button {
+  transform: translate(-214%, -750%);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 100%;
+}
+
 #restart-button:hover {
   border: 10px solid red;
   color: red;
@@ -65,6 +73,11 @@ body {
   border: 2px solid red;
 }
 #extreme-button:hover {
+  color: red;
+  border: 2px solid red;
+}
+
+#endless-button:hover {
   color: red;
   border: 2px solid red;
 }
