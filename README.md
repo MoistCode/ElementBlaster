@@ -119,6 +119,8 @@ const 1DRotation = (velocity, angle) => {
   </h2>  
 </a>
 
+  Projectile logic was a tad bit easier as it was limited to only one of the four cardinal directions. By providing a velocity and lifecycle, the bullets were able to become recycled so players don't get a screen full of flying bullets...although that might be a difficulty in the future for the crazy folks. The colors correspond to the elements and depending on what element the player is on, they will only shoot that type of element.
+
 ```javascript 
       this.context.beginPath();
         this.context.rect(
@@ -161,4 +163,11 @@ const 1DRotation = (velocity, angle) => {
   </h2>  
 </a>
 
-* Placeholder
+* Create gifs on my desktop because my laptop sucks
+* Diagonal blasts
+* Boss fights 
+* Ability to counter elemental bullets by changing player element
+* Power-ups
+* Different game music options
+* Scoring system
+
