@@ -5,7 +5,7 @@
   </a>
   
    <a href="https://moistcode.github.io/ElementBlaster/">
-    <h1 align="center">Element Blaster</h1>
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/gifs/title.gif">
   </a>
   
   <p align="center"><i>"In a land, where you become a spherical hero..."</i></p>
