@@ -19,9 +19,8 @@ This game is hugely inspired by the simple game of Rock-Paper-Scissors, where ev
 The elements in this game is not rock nor paper nor scissor, but of the classical elements: fire, water, lightning, and earth.
 
 Blast through your enemies as you are playing rounds upon rounds of rapid rock-paper-scissors. Players must be able to quickly identify the classical element that is being thrown at them. Responding correctly will overcome but one wrong move and it's one step closer to implosion.
+
 - [Features](#features)
-- [Shooting/DESTROYING thy Enemies](#destroy)
-- [Changing Difficulties](#difficulties)
 - [Collision Logic](#collision-logic)
 - [Projectile Logic](#projectile-logic)
 - [Project Direction](#project-direction)
