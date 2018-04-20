@@ -49,6 +49,7 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
       Destroy thy Enemies with Rapid Elemental Blasts!
   </h2>  
 </a>
+  By using the traditional WASD keys to move, QE to change elemnts, and arrow keys to BLAST your ways through barrages of enemies; feeling satisfaction after a days work can never be as easy as BOOM BOOM POW! Choose the correct elements based on what elements are trying to destroy you. Dodge bullets, make things go BOOM, and feel empowered!
 
 <a name="difficulty">
   <h2>
@@ -56,6 +57,7 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
       Too easy? Change difficult and try thy hand at becoming the top...sphere??
   </h2>  
 </a>
+  Is one enemy too hard? What about two, or five, or twenty! With the option of choosing difficulties, you're able to leave feeling as if you have completed your thesis on...spherical..heroes? I don't know. Just know that you're able to change difficulties. There's even an endless mode for FOREVER BOOM BOOMS!
 
 <a name="collision-logic">
   <h2>
@@ -63,7 +65,7 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
       Sample Collision Logic
   </h2>  
 </a>
-  Navigate seamlessly as creation is automatically updated and refreshed to show the most recently updated posts on your dashboard. Preview your uploaded items before creating them. No one likes those broken links...yuck... Currently supported types are quotes, long texts, audios, videos, and photos.
+  Now comes the math portion because math is everywhere. With some slight manipulation of the One-Dimensional Newtonian formula and the Pythagorean formula, collisions and their corresponding angle/velocity responses make the game look natural. Go ahead, throw a rock and see what happens. Yeah that's Physics and Mathematics. On a two-dimensional plane, the formula was difficult to adapt but thanks to Chris Course and the [elastic collision](https://en.wikipedia.org/wiki/Elastic_collision) wikipedia, I was able to manipulate the formula on a two-dimensional plane while maintaining the integrity of the responding angles.
 
 ``` javascript
   const handleCollision = (player1, player2) => {
