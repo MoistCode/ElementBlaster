@@ -20,10 +20,16 @@ The elements in this game is not rock nor paper nor scissor, but of the classica
 
 Blast through your enemies as you are playing rounds upon rounds of rapid rock-paper-scissors. Players must be able to quickly identify the classical element that is being thrown at them. Responding correctly will overcome but one wrong move and it's one step closer to implosion.
 
-<a name="post-edit-delete">
-  <h2 align='center'>
+- [Shooting/DESTROYING thy Enemies](#post-creation)
+- [Changing Difficulties](#post-edit-delete)
+- [Collision Logic](#post-edit-delete)
+- [Projectile Logic](#post-edit-delete)
+- [Project Direction](#post-edit-delete)
+
+<a name="technologies">
+  <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-    Technologies
+      Teachnologies
   </h2>  
 </a>
   
@@ -31,18 +37,13 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 |:-------------------------:|
 |<img src="https://github.com/MoistCode/ImaginaryNumblr/blob/master/readme_gifs/Webp.net-resizeimage(4).png">|
 
-<a name="post-edit-delete">
-  <h2 align='center'>
+<a name="features">
+  <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-    Features
+      Features
   </h2>  
 </a>
 
-- [Shooting/DESTROYING thy Enemies](#post-creation)
-- [Changing Difficulties](#post-edit-delete)
-- [Collision Logic](#post-edit-delete)
-- [Projectile Logic](#post-edit-delete)
-- [Project Direction](#post-edit-delete)
 
 <a name="post-edit-delete">
   <h2 align='center'>
