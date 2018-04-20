@@ -54,7 +54,7 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 <a name="difficulty">
   <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-      Too easy? Change difficult and try thy hand at becoming the top...sphere??
+      Too easy? Change difficulty and try thy hand at becoming the top...sphere??
   </h2>  
 </a>
   Is one enemy too hard? What about two, or five, or twenty! With the option of choosing difficulties, you're able to leave feeling as if you have completed your thesis on...spherical..heroes? I don't know. Just know that you're able to change difficulties. There's even an endless mode for FOREVER BOOM BOOMS!
