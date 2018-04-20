@@ -19,12 +19,12 @@ This game is hugely inspired by the simple game of Rock-Paper-Scissors, where ev
 The elements in this game is not rock nor paper nor scissor, but of the classical elements: fire, water, lightning, and earth.
 
 Blast through your enemies as you are playing rounds upon rounds of rapid rock-paper-scissors. Players must be able to quickly identify the classical element that is being thrown at them. Responding correctly will overcome but one wrong move and it's one step closer to implosion.
-
-- [Shooting/DESTROYING thy Enemies](#post-creation)
-- [Changing Difficulties](#post-edit-delete)
-- [Collision Logic](#post-edit-delete)
-- [Projectile Logic](#post-edit-delete)
-- [Project Direction](#post-edit-delete)
+- [Features](#features)
+- [Shooting/DESTROYING thy Enemies](#destroy)
+- [Changing Difficulties](#difficulties)
+- [Collision Logic](#collision-logic)
+- [Projectile Logic](#projectile-logic)
+- [Project Direction](#project-direction)
 
 <a name="technologies">
   <h2>
@@ -44,11 +44,24 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
   </h2>  
 </a>
 
-
-<a name="collisions">
+<a name="destroy">
   <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-      Collisions
+      Destroy thy Enemies with Rapid Elemental Blasts!
+  </h2>  
+</a>
+
+<a name="difficulty">
+  <h2>
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
+      Too easy? Change difficult and try thy hand at becoming the top...sphere??
+  </h2>  
+</a>
+
+<a name="collision-logic">
+  <h2>
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
+      Sample Collision Logic
   </h2>  
 </a>
   Navigate seamlessly as creation is automatically updated and refreshed to show the most recently updated posts on your dashboard. Preview your uploaded items before creating them. No one likes those broken links...yuck... Currently supported types are quotes, long texts, audios, videos, and photos.
@@ -100,7 +113,7 @@ const 1DRotation = (velocity, angle) => {
 <a name="projectile-logic">
   <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-      Projectiles
+      Sample Projectile Logic
   </h2>  
 </a>
 
