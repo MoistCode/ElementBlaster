@@ -5,10 +5,10 @@
   </a>
   
    <a href="https://moistcode.github.io/ElementBlaster/">
-    <h1 align="center">Element Blaster</h1>
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/gifs/title.gif">
   </a>
   
-  <p align="center"><i>"In a land, where you become a spherical hero..."</i></p>
+  <p align="center"><i>"In a land, where you become a spherical hero...<insert story here>"</i></p>
 </p> 
 
 ## Element Blaster
@@ -20,15 +20,22 @@ The elements in this game is not rock nor paper nor scissor, but of the classica
 
 Blast through your enemies as you are playing rounds upon rounds of rapid rock-paper-scissors. Players must be able to quickly identify the classical element that is being thrown at them. Responding correctly will overcome but one wrong move and it's one step closer to implosion.
 
-- [Features](#features)
-- [Collision Logic](#collision-logic)
+<a name="links">
+  <h2>
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
+      Linking Pleasures
+  </h2>  
+</a>
+
+- [Destroy thy Enemies](#destroy)
+- [Easy, too easy?](#difficulty)
 - [Projectile Logic](#projectile-logic)
 - [Project Direction](#project-direction)
 
 <a name="technologies">
   <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-      Teachnologies
+      Technologies
   </h2>  
 </a>
   
@@ -36,19 +43,13 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 |:-------------------------:|
 |<img src="https://github.com/MoistCode/ImaginaryNumblr/blob/master/readme_gifs/Webp.net-resizeimage(4).png">|
 
-<a name="features">
-  <h2>
-    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-      Features
-  </h2>  
-</a>
-
 <a name="destroy">
   <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
       Destroy thy Enemies with Rapid Elemental Blasts!
   </h2>  
 </a>
+  By using the traditional WASD keys to move, QE to change elemnts, and arrow keys to BLAST your ways through barrages of enemies; feeling satisfaction after a days work can never be as easy as BOOM BOOM POW! Choose the correct elements based on what elements are trying to destroy you. Dodge bullets, make things go BOOM, and feel empowered!
 
 <a name="difficulty">
   <h2>
@@ -56,6 +57,7 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
       Too easy? Change difficult and try thy hand at becoming the top...sphere??
   </h2>  
 </a>
+  Is one enemy too hard? What about two, or five, or twenty! With the option of choosing difficulties, you're able to leave feeling as if you have completed your thesis on...spherical..heroes? I don't know. Just know that you're able to change difficulties. There's even an endless mode for FOREVER BOOM BOOMS!
 
 <a name="collision-logic">
   <h2>
@@ -63,7 +65,8 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
       Sample Collision Logic
   </h2>  
 </a>
-  Navigate seamlessly as creation is automatically updated and refreshed to show the most recently updated posts on your dashboard. Preview your uploaded items before creating them. No one likes those broken links...yuck... Currently supported types are quotes, long texts, audios, videos, and photos.
+
+  Now comes the math portion because math is everywhere. With some slight manipulation of the One-Dimensional Newtonian formula and the Pythagorean formula, collisions and their corresponding angle/velocity responses make the game look very natural like an organic cow. Go ahead, throw a rock and see what happens. Yeah that's Physics and Mathematics but more on that in the future. On a two-dimensional plane, the formula was difficult to adapt to at first, but thanks to Chris Course and the [elastic collision](https://en.wikipedia.org/wiki/Elastic_collision) wikipedia, I was able to manipulate the formula on a two-dimensional plane while maintaining the integrity of the responding angles.
 
 ``` javascript
   const handleCollision = (player1, player2) => {
@@ -116,6 +119,8 @@ const 1DRotation = (velocity, angle) => {
   </h2>  
 </a>
 
+  Projectile logic was a tad bit easier as it was limited to only one of the four cardinal directions. By providing a velocity and lifecycle, the bullets were able to become recycled so players don't get a screen full of flying bullets...although that might be a difficulty in the future for the crazy folks. The colors correspond to the elements and depending on what element the player is on, they will only shoot that type of element.
+
 ```javascript 
       this.context.beginPath();
         this.context.rect(
@@ -158,4 +163,11 @@ const 1DRotation = (velocity, angle) => {
   </h2>  
 </a>
 
-* Placeholder
+* Create gifs on my desktop because my laptop sucks
+* Diagonal blasts
+* Boss fights 
+* Ability to counter elemental bullets by changing player element
+* Power-ups
+* Different game music options
+* Scoring system
+
