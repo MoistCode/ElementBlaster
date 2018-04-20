@@ -1,8 +1,15 @@
-# Element Blaster
-[Element Blaster](https://moistcode.github.io/ElementBlaster/)  
-
-In a land, where you become a spherical hero...
-
+<p align="center"> 
+  
+  <a href="https://moistcode.github.io/ElementBlaster/">
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/images/human.png">
+  </a>
+  
+   <a href="https://moistcode.github.io/ElementBlaster/">
+    <h1 align="center">Element Blaster</h1>
+  </a>
+  
+  <p align="center"><i>"In a land, where you become a spherical hero..."</i></p>
+</p> 
 
 ## Element Blaster
 Element Blaster is a game in which a player is represented as an ordinary blob in our three-dimensional world. However, in the two-dimensional world, you are no longer just a blob. You are reborn into a warrior fighting for survival as other elements try to take everything you know and love, your little blobs.
