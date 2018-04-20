@@ -29,6 +29,7 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 
 - [Destroy thy Enemies](#destroy)
 - [Easy, too easy?](#difficulty)
+- [Collision Logic](#collision-logic)
 - [Projectile Logic](#projectile-logic)
 - [Project Direction](#project-direction)
 
