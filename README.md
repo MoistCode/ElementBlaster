@@ -8,7 +8,7 @@
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/gifs/title.gif">
   </a>
   
-  <p align="center"><i>"In a land, where you become a spherical hero..."</i></p>
+  <p align="center"><i>"In a land, where you become a spherical hero...<insert story here>"</i></p>
 </p> 
 
 ## Element Blaster
@@ -35,7 +35,7 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 <a name="technologies">
   <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-      Teachnologies
+      Technologies
   </h2>  
 </a>
   
