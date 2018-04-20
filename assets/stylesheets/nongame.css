@@ -24,6 +24,15 @@ body {
   padding-left: 7px;
 }
 
+#start-button {
+  font-family: arcade;
+  transform: translate(65%, -916%);
+  border: 10px solid white;
+  border-radius: 8px;
+  color: white;
+  font-size: 250%;
+  padding-left: 7px;
+}
 
 #easy-button {
   font-family: arcade;
@@ -68,6 +77,10 @@ body {
 }
 
 #restart-button:hover {
+  border: 10px solid red;
+  color: red;
+}
+#start-button:hover {
   border: 10px solid red;
   color: red;
 }
