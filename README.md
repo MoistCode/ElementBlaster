@@ -58,7 +58,7 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
       Sample Collision Logic
   </h2>  
 </a>
-  Now comes the math portion because math is everywhere. With some slight manipulation of the One-Dimensional Newtonian formula and the Pythagorean formula, collisions and their corresponding angle/velocity responses make the game look very natural like an organic cow. Go ahead, throw a rock and see what happens. Yeah that's Physics and Mathematics but more on that in the future. On a two-dimensional plane, the formula was difficult to adapt to at first, but thanks to Chris Course and the [elastic collision](https://en.wikipedia.org/wiki/Elastic_collision) wikipedia, I was able to manipulate the formula on a two-dimensional plane while maintaining the integrity of the responding angles.
+  Now comes the math portion because math is everywhere. With some slight manipulation of the One-Dimensional Newtonian formula and the Pythagorean formula, collisions and their corresponding angle/velocity responses make the game look very natural like an organic cow. Go ahead, throw a rock and see what happens. Yeah that's Physics and Mathematics but more on that in the future. On a two-dimensional plane, the formula was difficult to adapt to at first, but thanks to Chris Course and the ![elastic collision](https://en.wikipedia.org/wiki/Elastic_collision) wikipedia, I was able to manipulate the formula on a two-dimensional plane while maintaining the integrity of the responding angles.
 
 ``` javascript
   const handleCollision = (player1, player2) => {
