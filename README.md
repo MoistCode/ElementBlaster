@@ -19,3 +19,73 @@ This game is hugely inspired by the simple game of Rock-Paper-Scissors, where ev
 The elements in this game is not rock nor paper nor scissor, but of the classical elements: fire, water, lightning, and earth.
 
 Blast through your enemies as you are playing rounds upon rounds of rapid rock-paper-scissors. Players must be able to quickly identify the classical element that is being thrown at them. Responding correctly will overcome but one wrong move and it's one step closer to implosion.
+
+## Technologies
+  
+|HTML5/CSS3/JavaScript|
+|:-------------------------:|
+|<img src="https://github.com/MoistCode/ImaginaryNumblr/blob/master/readme_gifs/Webp.net-resizeimage(4).png">|
+
+## Features
+
+- [Shooting/DESTROYING thy Enemies](#post-creation)
+- [Changing Difficulties](#post-edit-delete)
+- [Collision Logic](#post-edit-delete)
+- [Projectile Logic](#post-edit-delete)
+- [Project Direction](#post-edit-delete)
+
+## Collisions
+<a name="collision-logic">
+
+</a>
+  Navigate seamlessly as creation is automatically updated and refreshed to show the most recently updated posts on your dashboard. Preview your uploaded items before creating them. No one likes those broken links...yuck... Currently supported types are quotes, long texts, audios, videos, and photos.
+
+``` javascript
+  const handleCollision = (player1, player2) => {
+  let x1 = player1.coordX;
+  let y1 = player1.coordY;
+
+  let x2 = player2.coordX;
+  let y2 = player2.coordY;
+
+  let dx = x2 - x1;
+  let dy = y2 - y1;
+
+  let rotatedAngle = -Math.atan2(dy, dx);
+
+  let u1 = rotate({ x: player1.velocityX, y: player1.velocityY }, rotatedAngle);
+  let u2 = rotate({ x: player2.velocityX, y: player2.velocityY }, rotatedAngle);
+
+  let v1 = { x: u2.x, y: u1.y };
+  let v2 = { x: u1.x, y: u2.y };
+
+  let finalVel1 = rotate(v1, -rotatedAngle);
+  let finalVel2 = rotate(v2, -rotatedAngle);
+
+  player1.velocityX = finalVel1.x;
+  player1.velocityY = finalVel1.y;
+
+  player2.velocityX = finalVel2.x;
+  player2.velocityY = finalVel2.y;
+
+  let xPow = Math.pow(player2.coordX - player1.coordX, 2);
+  let yPow = Math.pow(player2.coordY - player1.coordY, 2);
+  let distance = Math.sqrt(xPow + yPow);
+
+};
+
+const 1DRotation = (velocity, angle) => {
+  const rotatedVelocities = {
+      x: velocity.x * Math.cos(angle * (180/Math.PI)) - velocity.y * Math.sin(angle * (180/Math.PI)),
+      y: velocity.x * Math.sin(angle * (180/Math.PI)) + velocity.y * Math.cos(angle * (180/Math.PI))
+  };
+
+  return rotatedVelocities;
+}
+```
+
+<a name="project-direction">
+  <h2>Project Direction</h2>
+</a>
+
+* Placeholder
