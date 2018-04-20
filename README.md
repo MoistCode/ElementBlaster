@@ -104,6 +104,41 @@ const 1DRotation = (velocity, angle) => {
   </h2>  
 </a>
 
+```javascript 
+      this.context.beginPath();
+        this.context.rect(
+          this.posX - (13/2),
+          this.posY + 40,
+          13,
+          13
+        );
+        switch(this.element) {
+          case 'Fire':
+            this.context.fillStyle = 'red';
+            break;
+          case 'Earth':
+            this.context.fillStyle = '#7B1803';
+            break;
+          case 'Lightning':
+            this.context.fillStyle = '#F5EE10';
+            break;
+          case 'Water':
+            this.context.fillStyle = 'blue';
+            break;
+        }
+        this.context.fill();
+        this.context.closePath();
+
+        this.context.beginPath();
+        this.context.arc(this.posX, this.posY + 52, 7, 0, Math.PI);
+        this.context.fillStyle = 'white'
+        this.context.fill();
+        this.context.closePath();
+
+        this.posY += this.velocity;
+        this.lifeline -= 1;
+```
+
 <a name="project-direction">
   <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
