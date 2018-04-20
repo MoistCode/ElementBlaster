@@ -20,8 +20,8 @@ The elements in this game is not rock nor paper nor scissor, but of the classica
 
 Blast through your enemies as you are playing rounds upon rounds of rapid rock-paper-scissors. Players must be able to quickly identify the classical element that is being thrown at them. Responding correctly will overcome but one wrong move and it's one step closer to implosion.
 
-- [Features](#features)
-- [Collision Logic](#collision-logic)
+- [Destroy thy Enemies](#destroy)
+- [Easy, too easy?](#difficulty)
 - [Projectile Logic](#projectile-logic)
 - [Project Direction](#project-direction)
 
@@ -35,13 +35,6 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 |HTML5/CSS3/JavaScript|
 |:-------------------------:|
 |<img src="https://github.com/MoistCode/ImaginaryNumblr/blob/master/readme_gifs/Webp.net-resizeimage(4).png">|
-
-<a name="features">
-  <h2>
-    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-      Features
-  </h2>  
-</a>
 
 <a name="destroy">
   <h2>
