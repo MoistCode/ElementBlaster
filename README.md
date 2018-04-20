@@ -20,13 +20,23 @@ The elements in this game is not rock nor paper nor scissor, but of the classica
 
 Blast through your enemies as you are playing rounds upon rounds of rapid rock-paper-scissors. Players must be able to quickly identify the classical element that is being thrown at them. Responding correctly will overcome but one wrong move and it's one step closer to implosion.
 
-## Technologies
+<a name="post-edit-delete">
+  <h2 align='center'>
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
+    Technologies
+  </h2>  
+</a>
   
 |HTML5/CSS3/JavaScript|
 |:-------------------------:|
 |<img src="https://github.com/MoistCode/ImaginaryNumblr/blob/master/readme_gifs/Webp.net-resizeimage(4).png">|
 
-## Features
+<a name="post-edit-delete">
+  <h2 align='center'>
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
+    Features
+  </h2>  
+</a>
 
 - [Shooting/DESTROYING thy Enemies](#post-creation)
 - [Changing Difficulties](#post-edit-delete)
@@ -34,9 +44,11 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 - [Projectile Logic](#post-edit-delete)
 - [Project Direction](#post-edit-delete)
 
-## Collisions
-<a name="collision-logic">
-
+<a name="post-edit-delete">
+  <h2 align='center'>
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
+    Collisions
+  </h2>  
 </a>
   Navigate seamlessly as creation is automatically updated and refreshed to show the most recently updated posts on your dashboard. Preview your uploaded items before creating them. No one likes those broken links...yuck... Currently supported types are quotes, long texts, audios, videos, and photos.
 
@@ -84,8 +96,11 @@ const 1DRotation = (velocity, angle) => {
 }
 ```
 
-<a name="project-direction">
-  <h2>Project Direction</h2>
+<a name="post-edit-delete">
+  <h2 align='center'>
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
+    Project Direction
+  </h2>  
 </a>
 
 * Placeholder
