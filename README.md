@@ -45,10 +45,10 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 </a>
 
 
-<a name="post-edit-delete">
-  <h2 align='center'>
+<a name="collisions">
+  <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-    Collisions
+      Collisions
   </h2>  
 </a>
   Navigate seamlessly as creation is automatically updated and refreshed to show the most recently updated posts on your dashboard. Preview your uploaded items before creating them. No one likes those broken links...yuck... Currently supported types are quotes, long texts, audios, videos, and photos.
@@ -97,10 +97,17 @@ const 1DRotation = (velocity, angle) => {
 }
 ```
 
-<a name="post-edit-delete">
-  <h2 align='center'>
+<a name="projectile-logic">
+  <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
-    Project Direction
+      Projectiles
+  </h2>  
+</a>
+
+<a name="project-direction">
+  <h2>
+    <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
+      Project Direction
   </h2>  
 </a>
 
