@@ -51,9 +51,6 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 </a>
   By using the traditional WASD keys to move, QE to change elemnts, and arrow keys to BLAST your ways through barrages of enemies; feeling satisfaction after a days work can never be as easy as BOOM BOOM POW! Choose the correct elements based on what elements are trying to destroy you. Dodge bullets, make things go BOOM, and feel empowered!
 
-<img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/images/movement.png">
-<img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/images/instruct.png">
-
 <a name="difficulty">
   <h2>
     <img src="https://raw.githubusercontent.com/MoistCode/ElementBlaster/gh-pages/assets/favicons/favicon-16x16.png">
