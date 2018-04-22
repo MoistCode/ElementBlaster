@@ -82,14 +82,14 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 
   let rotatedAngle = -Math.atan2(dy, dx);
 
-  let u1 = rotate({ x: player1.velocityX, y: player1.velocityY }, rotatedAngle);
-  let u2 = rotate({ x: player2.velocityX, y: player2.velocityY }, rotatedAngle);
+  let u1 = oneDRotation({ x: player1.velocityX, y: player1.velocityY }, rotatedAngle);
+  let u2 = oneDRotation({ x: player2.velocityX, y: player2.velocityY }, rotatedAngle);
 
   let v1 = { x: u2.x, y: u1.y };
   let v2 = { x: u1.x, y: u2.y };
 
-  let finalVel1 = rotate(v1, -rotatedAngle);
-  let finalVel2 = rotate(v2, -rotatedAngle);
+  let finalVel1 = oneDRotation(v1, -rotatedAngle);
+  let finalVel2 = oneDRotation(v2, -rotatedAngle);
 
   player1.velocityX = finalVel1.x;
   player1.velocityY = finalVel1.y;
@@ -103,7 +103,7 @@ Blast through your enemies as you are playing rounds upon rounds of rapid rock-p
 
 };
 
-const 1DRotation = (velocity, angle) => {
+const oneDRotation = (velocity, angle) => {
   const rotatedVelocities = {
       x: velocity.x * Math.cos(angle * (180/Math.PI)) - velocity.y * Math.sin(angle * (180/Math.PI)),
       y: velocity.x * Math.sin(angle * (180/Math.PI)) + velocity.y * Math.cos(angle * (180/Math.PI))
