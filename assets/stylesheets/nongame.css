@@ -10,23 +10,24 @@ body {
 }
 .game-video {
   display: inline;
-  transform: translate(17%, -158%);
+  transform: translate(17%, -177%);
   width: 17%;
 }
 
 #restart-button {
   font-family: arcade;
-  transform: translate(-99%, -286%);
+  transform: translate(-111%, -305%);
   border: 10px solid white;
   border-radius: 8px;
   color: white;
   font-size: 250%;
   padding-left: 7px;
+  margin-right: 17px;
 }
 
 #start-button {
   font-family: arcade;
-  transform: translate(65%, -916%);
+  transform: translate(187%, -1079%);
   border: 10px solid white;
   border-radius: 8px;
   color: white;
