@@ -8,10 +8,20 @@ body {
   overflow: hidden;
   background-color: black;
 }
+
 .game-video {
   display: inline;
   transform: translate(17%, -177%);
   width: 17%;
+}
+
+#gitlink {
+  height: 100%;
+  width: 100%;
+}
+
+#gitlink a i {
+  font-size: 36px;
 }
 
 #restart-button {
